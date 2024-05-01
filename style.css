@@ -1,0 +1,38 @@
+html{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: coral;
+}
+.flex{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+    position:relative;
+    
+
+}
+.items{
+    padding:10px;
+    margin-top:5%;
+    text-align: center;
+    border:2px solid beige;
+    border-radius: 15px;
+    font-size: x-large;
+    height:42vh;
+    width:20%;
+    background-color:bisque;
+}
+ul li{
+    list-style: none;
+    font-size: larger;
+}
+button{
+    font-size: x-large;
+    border-radius: 10px;
+    background-color: darkblue;
+    color: white;
+    padding:12px;
+}
